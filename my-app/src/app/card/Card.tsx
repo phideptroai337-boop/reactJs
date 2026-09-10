@@ -5,7 +5,7 @@ import custom from "./custom.module.css"
 import clsx from "clsx"
 
 export default function Card() {
-    const [expadding, setExpadding] = useState(false)
+    const [expadding, setExpadding] = useState(true)
  return (
     <div className={clsx('card', {
         [custom.card]:expadding
